@@ -3,7 +3,7 @@ mkdir exports
 cd exports
 pip3 install h5py
 
-# Download SIFT (1000000 x 128)
+# # Download SIFT (1000000 x 128)
 wget ftp://ftp.irisa.fr/local/texmex/corpus/sift.tar.gz
 tar -xzvf sift.tar.gz
 rm sift.tar.gz
@@ -51,3 +51,6 @@ mv deep1M_groundtruth.ivecs deep_groundtruth.ivecs
 mv deep1M_learn.fvecs deep_learn.fvecs
 mv deep1M_query.fvecs deep_query.fvecs
 cd ../..
+
+
+# For MNIST  -- dataset can be downloaded from https://github.com/erikbern/ann-benchmarks?tab=readme-ov-file 
